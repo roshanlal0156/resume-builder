@@ -1,0 +1,142 @@
+#ta-section-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#ta-section-1-left {
+}
+#ta-section-1-right {
+    max-width: 30ch;
+}
+#ta-section-1-right {
+    position: relative;
+}
+.ta-section-1-right-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* .test:hover {
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+} */
+/* .test:hover::before {
+    font-family: "Font Awesome 5 Free";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: green;
+    font-weight: 900;
+    width: 30px;
+    height: 30px;
+    content: '\2b';
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    border: 1px solid rgb(130, 225, 130);
+    border-radius: 50%;
+} */
+.ta-section {
+    border-top: 2px solid #7c868f;
+    margin-top: 20px;
+    position: relative;
+    transition: all 0.1s ease-in;
+}
+.ta-section-heading {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+#tas2-wee-key-points > li:empty:after {
+    content: "This is the template for your input";
+    color: #d1d1d1;
+}
+#ta-section-menu {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: -30px;
+}
+#ta-section-menu-items {
+    padding: 2px;
+    margin: 2px;
+    list-style-type: none;
+    width: fit-content;
+    border: 1px solid white;
+    border-radius: 23px;
+    background-color: black;
+}
+.ta-section-menu-item {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    margin: 5px 0px;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+.ta-section-menu-item:hover {
+    scale: 1.1;
+}
+#ta-section-menu-item-add {
+    background-color: green;
+    color: white;
+}
+#ta-section-menu-item-delete {
+    background-color: red;
+    color: white;
+}
+.ta-section-sub-sections {
+    list-style-type: none;
+}
+.ta-section-sub-section {
+    margin-top: 30px;
+}
+#tas2-wee-heading, #tas3-wee-heading {
+    display: flex;
+    justify-content: space-between;
+}
+#tas2-wee-heading #state-and-country {
+    font-size: smaller;
+}
+#degree-collage-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#degree-collage-score > #collage {
+    font-size: small;
+}
+#degree-collage-score > #score {
+    font-size: smaller;
+    font-weight: 400;
+}
+.tas4-skill {
+    font-size: 15px;
+    letter-spacing: 3px;
+    background-color: #dedfe1;
+    width: fit-content;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+#tas4 .ta-section-sub-sections > li {
+    display: inline-block;
+    width: fit-content;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+
+#page1{
+    padding-right: 30px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head>
+        <%- include('./common/head'); -%>
+        <link rel="stylesheet" href="/../static/templates/common/style.css">
+        <link rel="stylesheet" href="/../static/templates/css/templateA.css">
+        <script type="module" src="/../static/templates/js/templateA.js"></script>
+    </head>
+</head>
+
+<body>
+    <%- include('./common/header'); -%>
+    <%- include('./templates/' + template); -%>
+    <%- include('./common/footer'); -%>
+</body>
+
+</html>
