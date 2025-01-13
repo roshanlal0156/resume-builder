@@ -6,6 +6,7 @@ const PORT = 3000;
 app.set('view engine', 'ejs');
 
 app.use('/static', express.static(__dirname + '/public'));
+app.use('/css', express.static("dist"));
 
 
 // index page
