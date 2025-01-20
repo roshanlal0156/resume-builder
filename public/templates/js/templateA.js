@@ -10,14 +10,13 @@ $(document).ready(function () {
     downloadResumeBtn.addEventListener('click', function (event) {
         var element = document.querySelector('#page1');
         var opt = {
-            margin: [0.5, 0.5, 0.0, 0.65],
+            margin: [0.5, 0.2, 0.5, 0.65],
+            // padding:[10,5,10,5],
             filename: 'myfile.pdf',
             image: { type: 'jpeg', quality: 0.98 },
             html2canvas: { scale: 2 },
             jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
         };
-
-        // New Promise-based usage:
         html2pdf().set(opt).from(element).save();
     })
 
