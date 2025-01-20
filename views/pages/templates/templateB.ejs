@@ -1,384 +1,230 @@
-<div class="max-w-[800px] mx-auto">
-  <div
-    class="downloadBtn w-[30px] h-[30px] bg-black rounded-[50%] px-[6px] py-[3px] cursor-pointer"
-  >
+<div class=" w-[100%]  sm:m-5 md:w-[700px] lg:w-[800px] mx-auto  ">
+
+  <div class="downloadBtn w-[30px] h-[30px] bg-black  rounded-[50%] px-[6px] py-[3px] m-2
+  cursor-pointer">
     <span class="text-white"><i class="fa-solid fa-download"></i></span>
   </div>
+
   <div
-    class="bodyBtn w-[40px] h-[60px] fixed justify-center items-center flex-col bg-black z-2 rounded-lg gap-1 hidden"
-  >
-    <span
-      class="plusicon w-[25px] h-[25px] rounded-[50%] bg-blue-200 text-[16px] px-[5px] py-[2px]"
-      ><i class="fa-solid fa-plus"></i
-    ></span>
-    <span
-      class="deleteIcon w-[25px] h-[25px] rounded-[50%] bg-blue-200 text-[16px] px-[5px] py-[2px]"
-      ><i class="fa-solid fa-trash"></i
-    ></span>
-  </div>
-  <div
-    class="wholeContainer relative w-full min-h-[900px] py-[30px] px-5 border-[2px] border-solid border-gray-400"
-  >
+  class="bodyBtn w-[25px]  md:w-[40px] h-[50px] md:h-[80px]  justify-center items-center flex-col hidden
+ left-[-35px] sm:left-[-40px]  md:left-[-70px] bg-blue-300 hover:bg-black z-2 rounded-lg gap-1  
+ cursor-pointer transition-all duration-1000 ease-in-out">
+  <span class="plusicon  w-[18px] h-[18px] md:w-[25px] md:h-[25px] rounded-[50%] bg-black
+   text-white text-[12px] md:text-[16px] pl-[4px] pt-[1px] md:px-[5px] md:py-[1px]"><i class="fa-solid fa-plus"></i></span>
+  <span class="deleteIcon w-[18px] h-[18px] md:w-[25px] md:h-[25px] rounded-[50%] bg-black
+   text-white text-[10px] md:text-[16px] pl-[5px] pt-[2px] md:px-[5px] md:py-[2px]"><i class="fa-solid fa-trash"></i></span>
+  
+</div>
+
+  <div class="wholeContainer relative w-[270px] 500:w-[430px] sm:w-[600px] md:w-full m-10  min-h-[900px] mx-auto
+  py-[30px] px-[8px] sm:px-[15px] md:px-[30px]  border-[2px] border-solid border-gray-400">
+  
     <div class="flex justify-between item-center">
-      <div>
-        <h1
-          class="draggableEle font-bold text-[35px] uppercase cursor-pointer"
-          contenteditable="true"
-          draggable="true"
-        >
+      <div class="">
+        <h1 class="draggableEle font-bold text-[12px] 500:text-[18px] 400:text-[15px] sm:text-[30px]
+         md:text-[35px] uppercase 
+        cursor-pointer" contenteditable="true" draggable="true">
           ahmdd saah
         </h1>
-        <div class="flex justify-center item-center gap-2 pt-2">
-          <span
-            class="text-[18px] bg-zinc-700 text-white rounded-[50%] w-[35px] h-[35px] text-center py-1"
-            ><i class="fa-brands fa-github"></i
-          ></span>
-          <span
-            class="text-[18px] bg-zinc-700 text-white rounded-[50%] w-[35px] h-[35px] text-center py-1"
-            ><i class="fa-brands fa-linkedin-in"></i
-          ></span>
-          <span
-            class="text-[18px] bg-zinc-700 text-white rounded-[50%] w-[35px] h-[35px] text-center py-1"
-            ><i class="fa-solid fa-briefcase"></i
-          ></span>
+        <div class="flex justify-center item-center gap-2 pt-1 sm:pt-2">
+          <span class="circleLink"><i
+              class="fa-brands fa-github"></i></span>
+          <span class="circleLink"><i
+              class="fa-brands fa-linkedin-in"></i></span>
+          <span class="circleLink"><i
+              class="fa-solid fa-briefcase"></i></span>
         </div>
       </div>
+
       <div class="">
-        <h1 class="font-semibold text-[17px] text-blue-400">
-          <span class="text-[18px] text-black"
-            ><i class="fa-solid fa-envelope"></i></span
-          >&nbsp; <span contenteditable="true"> hello@reallygreatsite.com</span>
+        <h1 class="rightLinkHead">
+          <span class="rightLinkChild"><i class="fa-solid fa-envelope"></i></span>&nbsp; <span
+            contenteditable="true"> hello@reallygreatsite.com</span>
         </h1>
-        <h1 class="font-semibold text-[17px] text-blue-400">
-          <span class="text-[18px] text-black"
-            ><i class="fa-solid fa-phone"></i></span
-          >&nbsp; <span contenteditable="true">+91 1234567890</span>
+        <h1 class="rightLinkHead">
+          <span class="rightLinkChild"><i class="fa-solid fa-phone"></i></span>&nbsp; <span
+            contenteditable="true">+91 1234567890</span>
         </h1>
-        <h1 class="font-semibold text-[17px] text-blue-400">
-          <span class="text-[18px] text-black"
-            ><i class="fa-solid fa-location-dot"></i></span
-          >&nbsp; <span contenteditable="true">Jaipur, Rajsthan (334433)</span>
+        <h1 class="rightLinkHead">
+          <span class="rightLinkChild"><i class="fa-solid fa-location-dot"></i></span>&nbsp; <span
+            contenteditable="true">Jaipur, Rajsthan (334433)</span>
         </h1>
       </div>
     </div>
-    <div class="selectedParentContainer draggableEle">
-      <div
-        class="w-[100%] mx-auto border-[1px] border-solid border-zinc-800 mt-8"
-      ></div>
+
+    <div>
+      <div class="w-[100%] mx-auto border-[1px] border-solid border-zinc-800 mt-8"></div>
     </div>
-    <div class="selectedParentContainer draggableEle">
-      <div
-        class="bg-zinc-700 rounded-5 mt-[10px] py-1 h-10 font-bold text-2xl text-white px-3 uppercase cursor-pointer"
-        contenteditable="true"
-      >
-        <h1
-          class="font-bold text-2xl uppercase cursor-pointer text-white"
-          contenteditable="true"
-          draggable="true"
-        >
-          <span class="text-xl text-white"
-            ><i class="fa-solid fa-list"></i
-          ></span>
+
+ 
+      <div class=" bg-zinc-700 rounded-5 mt-[10px] py-[5px] 500:py-[6px] md:py-1 h-6 500:h-8 sm:h-10 font-bold px-3 uppercase 
+      cursor-pointer text-white" contenteditable="true">
+        <h1 class="topHeading " contenteditable="true">
+          <span><i class="fa-solid fa-list"></i></span>
           SUMMARY
         </h1>
       </div>
-    </div>
     <div
-      class="w-full text-gray-700 px-3 pt-2 text-[18px] font-semibold leading-snug text-justify draggableEle selectedParentContainer cursor-pointer"
-      draggable="true"
-    >
-      <p contenteditable="true">
-        UX Designer with a focus on delivering impactful results, eager to
-        tackle dynamic challenges and apply creativity to craft intuitive user
-        experiences. Demonstrated proficiency in project management, user
-        centric problem-solving, and seamless collaboration across teams.
-        Skilled in leveraging state-of-the-art tools and methodologies to
-        streamline processes and elevate user satisfaction
+      class="w-full text-gray-700 px-3 pt-2 text-[10px] 500:text-[14px] sm:text-[16px] md:text-[18px] 
+      font-semibold leading-snug text-justify cursor-pointer">
+      <p contenteditable="true" class="summaryContent">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, placeat iure architecto consequatur ex sequi vero voluptates doloremque culpa non earum quis et, minus asperiores ea facilis voluptate necessitatibus fugit aliquid vel praesentium! Excepturi deleniti omnis molestiae provident illo eos?
+
       </p>
     </div>
 
-    <div class="selectedParentContainer draggableEle">
-      <div
-        class="w-[100%] mx-auto border-[1px] border-solid border-zinc-800 mt-8"
-      ></div>
+    <div>
+      <div class="w-[100%] mx-auto border-[1px] border-solid border-zinc-800 mt-8"></div>
     </div>
-    <div class="selectedParentContainer draggableEle">
-      <div
-        class="bg-zinc-700 text-white rounded-5 mt-[10px] py-1 h-10 font-bold text-2xl px-3 uppercase cursor-pointer"
-        contenteditable="true"
-      >
-        <h1
-          class="font-bold text-2xl uppercase cursor-pointer text-white"
-          contenteditable="true"
-          draggable="true"
-        >
-          <span class="text-xl text-white"
-            ><i class="fa-solid fa-kitchen-set"></i
-          ></span>
+   
+      <div class="bg-zinc-700 rounded-5 mt-[10px] py-[5px] 500:py-[6px] md:py-1 h-6 500:h-8 sm:h-10 font-bold px-3 uppercase 
+      cursor-pointer text-white"
+        contenteditable="true">
+        <h1 class="topHeading" contenteditable="true" >
+          <span><i class="fa-solid fa-kitchen-set"></i></span>
           ADDITIONAL SKILLS
         </h1>
       </div>
-    </div>
-    <div class="">
+   
+    <div>
       <div class="px-3 pt-2 mt-2"></div>
-      <ul
-        class="list-disc text-[18px] text-justify leading-snug draggableEle selectedParentContainer px-3"
-      >
-        <li
-          class="font-semibold text-gray-700"
-          contenteditable="true"
-          draggable="true"
-        >
-          <b class="text-[20px] capitalize font-bold text-black"
-            >Technical Skills :</b
-          >
-          Project Management, Structural Analysis, Robotics and Automation, CAD
-        </li>
-        <li
-          class="font-semibold text-gray-700"
-          contenteditable="true"
-          draggable="true"
-        >
-          <b class="text-[20px] text-black capitalize font-bold">Web Tools :</b>
-          VSCode , Postman, Chrome DevTools ,GitHub , Netlify
-        </li>
-        <li
-          class="font-semibold text-gray-700"
-          contenteditable="true"
-          draggable="true"
-        >
-          <b class="text-[20px] text-black capitalize font-bold"
-            >Web Development :</b
-          >
-          CSS, HTML, DOM Manipulation, Async JS, APIs, Node.js, REST APIs, CURD
-          Operations, Git & Version Control
-        </li>
-
-        <li class="font-semibold" contenteditable="true" draggable="true">
-          <b class="text-[20px] capitalize font-bold">Frameworks :</b> Tailwind
-          , React.js ,Express.js
-        </li>
+      <ul class="list-disc text-[10px] 500:text-[14px] sm:text-[16px] md:text-[18px] text-justify 
+      leading-snug  px-3 font-semibold text-gray-700 skillParentContainer ">
+      <div class="skillParent ">
+        <li class="skillList"  >
+          <span class="boldList font-bold span1" contenteditable="true">User Heading:</span>
+           <span class="span2" contenteditable="true">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam modi error, quo eveniet 
+             aperiam neque.</span> 
+           </li>
+      </div>
+      <div class="skillParent">
+        <li class="skillList"  >
+          <span class="boldList font-bold span1" contenteditable="true">User Heading:</span>
+           <span  class="span2" contenteditable="true"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam modi error, quo eveniet 
+             aperiam neque.</span> 
+           </li>
+      </div>
+      <div class="skillParent">
+        <li class="skillList"  >
+          <span class="boldList font-bold span1" contenteditable="true">User Heading:</span>
+           <span class="span2"  contenteditable="true"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam modi error, quo eveniet 
+             aperiam neque.</span> 
+           </li>
+      </div>
+       
+      
       </ul>
     </div>
 
     <div class="selectedParentContainer draggableEle">
-      <div
-        class="w-[100%] mx-auto border-[1px] border-solid border-zinc-800 mt-8"
-      ></div>
+      <div class="w-[100%] mx-auto border-[1px] border-solid border-zinc-800 mt-8"></div>
     </div>
 
-    <div class="selectedParentContainer draggableEle">
-      <div
-        class="bg-zinc-700 text-white rounded-5 mt-[10px] py-1 h-10 font-bold text-2xl px-3 uppercase cursor-pointer"
-        contenteditable="true"
-      >
-        <h1
-          class="font-bold text-2xl uppercase cursor-pointer text-white"
-          contenteditable="true"
-          draggable="true"
-        >
-          <span class="text-xl text-white"
-            ><i class="fa-solid fa-briefcase"></i
-          ></span>
+    
+      <div class=" bg-zinc-700 rounded-5 mt-[10px] py-[5px] 500:py-[6px] md:py-1 h-6 500:h-8 sm:h-10 font-bold px-3 uppercase 
+      cursor-pointer text-white" contenteditable="true">
+        <h1 class="topHeading" contenteditable="true" draggable="true">
+          <span><i class="fa-solid fa-briefcase"></i></span>
           WORK EXPERIENCE
         </h1>
-      </div>
+   </div>
+
+    <div class=" pt-2 mt-2 selectedParentContainer  ">
+      <ul
+        class="list-disc text-[10px] 500:text-[14px] sm:text-[16px] md:text-[18px] text-justify 
+        leading-snug  px-3 pb-3 font-semibold text-gray-700">
+        <div class=" flex justify-start 500:justify-between items-start 500:items-center 
+      flex-col 500:flex-row">
+      <h1 class="allHeadings boldList" contenteditable="true">
+       Lorem ipsum dolor sit amet.
+      </h1>
+      <span class="text-[8px] 500:text-[12px]  sm:text-[15px] md:text-[17px]  500:float-right text-blue-400 font-bold" contenteditable="true">&nbsp;(Aug 2020-Aug 2024)</span>
     </div>
-
-    <div class="px-3 pt-2 selectedParentContainer draggableEle">
-      <h1
-        class="text-xl font-bold capitalize draggableEle mt-2"
-        contenteditable="true"
-      >
-        Front-End Developer - XYZ Solutions
-        <span
-          class="text-[17px] float-right text-blue-400 font-bold"
-          contenteditable="true"
-          >(Aug 2020-Aug 2024)</span
-        >
-      </h1>
-
-      <ul
-        class="draggableEle list-disc text-[18px] text-gray-700 font-semibold text-justify leading-tight selectedParentContainer"
-      >
-        <li contenteditable="true" draggable="true">
-          Designed and implemented responsive web pages using HTML, CSS, and
-          JavaScript.
+        <li contenteditable="true" >
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam modi error, quo eveniet aperiam neque.
         </li>
-        <li contenteditable="true" draggable="true">
-          Collaborated with designers and back-end developers to deliver
-          user-friendly interfaces.
+        <li contenteditable="true" >
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam modi error, quo eveniet aperiam neque.
         </li>
-        <li contenteditable="true" draggable="true">
-          Improved website performance, reducing load time by 25%
-        </li>
-      </ul>
-
-      <h1
-        class="text-xl font-bold capitalize draggableEle mt-2"
-        contenteditable="true"
-      >
-        Web Design Intern - Creative Minds
-        <span
-          class="text-[17px] float-right text-blue-400"
-          contenteditable="true"
-          >(Aug 2020-Aug 2024)</span
-        >
-      </h1>
-      <ul
-        class="draggableEle list-disc text-[18px] font-semibold text-justify leading-tight selectedParentContainer text-gray-700"
-      >
-        <li contenteditable="true" draggable="true">
-          Created visually appealing layouts and wireframes for client websites.
-        </li>
-        <li contenteditable="true" draggable="true">
-          Optimized images and media for faster loading and better performance
-        </li>
-        <li contenteditable="true" draggable="true">
-          Assisted in testing and maintaining the functionality of e-commerce
-          platforms.
+        <li contenteditable="true" >
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam modi error, quo eveniet aperiam neque.
         </li>
       </ul>
     </div>
 
-    <div class="selectedParentContainer draggableEle">
-      <div
-        class="draggableEle w-[100%] mx-auto border-[1px] border-solid border-zinc-800 mt-8"
-      ></div>
+     <div class="selectedParentContainer draggableEle">
+      <div class="draggableEle w-[100%] mx-auto border-[1px] border-solid border-zinc-800 mt-3"></div>
     </div>
-    <div class="selectedParentContainer draggableEle">
-      <div
-        class="bg-zinc-700 text-white rounded-5 mt-[10px] py-1 h-10 font-bold text-2xl px-3 uppercase cursor-pointer"
-        contenteditable="true"
-      >
-        <h1
-          class="font-bold text-2xl uppercase cursor-pointer text-white"
-          contenteditable="true"
-          draggable="true"
-        >
-          <span class="text-xl text-white"
-            ><i class="fa-solid fa-list-check"></i></span
-          >&nbsp; PROJECTS
+    <div class="selectedParentContainer ">
+      <div class=" bg-zinc-700 rounded-5 mt-[10px] py-[5px] 500:py-[6px] md:py-1 h-6 500:h-8 sm:h-10 font-bold px-3 uppercase 
+      cursor-pointer text-white"
+        contenteditable="true">
+        <h1 class="topHeading" contenteditable="true" draggable="true">
+          <span ><i class="fa-solid fa-list-check"></i></span>&nbsp; PROJECTS
         </h1>
       </div>
     </div>
 
-    <div class="px-3 pt-2 mt-2 selectedParentContainer draggableEle">
-      <h1
-        class="text-xl font-bold capitalize text-blue-400 draggableEle"
-        contenteditable="true"
-        draggable="true"
-      >
-        instant chat app| lukrasto
-      </h1>
+    <div class=" pt-2 mt-2 selectedParentContainer draggableEle">
+      
       <ul
-        class="draggableEle text-gray-700 list-disc text-[18px] font-semibold text-justify leading-tight selectedParentContainer"
-      >
-        <li contenteditable="true" draggable="true">
-          Developed standard Message using Story bloop KA
+        class="list-disc text-[10px] 500:text-[14px] sm:text-[16px] md:text-[18px] text-justify 
+        leading-snug px-3 pb-2 font-semibold text-gray-700">
+          
+        <h1 class="allHeadings text-[12px] 500:text-[15px] sm:text-[18px] md:text-xl font-bold capitalize text-blue-400 
+      draggableEle" contenteditable="true" draggable="true">
+       Lorem ipsum dolor sit amet.
+      </h1>
+        <li contenteditable="true" >
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam modi error, quo eveniet aperiam neque.
         </li>
-        <li contenteditable="true" draggable="true">
-          Improved User Experience During usage of the app by eliminating bugs
+        <li contenteditable="true" >
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam modi error, quo eveniet aperiam neque.
         </li>
       </ul>
-      <h1
-        class="text-xl font-bold capitalize text-blue-400 draggableEle"
-        contenteditable="true"
-        draggable="true"
-      >
-        Weather App |Lukrasoto
-      </h1>
-      <ul
-        class="draggableEle text-gray-700 list-disc text-[18px] font-semibold text-justify leading-tight selectedParentContainer"
-      >
-        <li contenteditable="true" draggable="true">
-          Optimized for mobile and desktop with a dark mode toggle for better
-          UX.
-        </li>
-        <li contenteditable="true" draggable="true">
-          Integrated OpenWeatherMap API for real-time weather updates.
-        </li>
-      </ul>
+      
+      
     </div>
 
     <div class="selectedParentContainer draggableEle">
-      <div
-        class="w-[100%] mx-auto border-[1px] border-solid border-zinc-800 mt-8"
-      ></div>
+      <div class="w-[100%] mx-auto border-[1px] border-solid border-zinc-800 mt-8"></div>
     </div>
-    <div class="selectedParentContainer draggableEle">
-      <div
-        class="text-white bg-zinc-700 rounded-5 mt-[10px] py-1 h-10 font-bold text-2xl px-3 uppercase cursor-pointer"
-        contenteditable="true"
-      >
-        <h1
-          class="font-bold text-2xl uppercase cursor-pointer text-white"
-          contenteditable="true"
-          draggable="true"
-        >
-          <span class="text-xl text-white">
-            <i class="fa-solid fa-user-graduate"></i
-          ></span>
+   
+      <div class=" bg-zinc-700 rounded-5 mt-[10px] py-[5px] 500:py-[6px] md:py-1 h-6 500:h-8 sm:h-10 font-bold px-3 uppercase 
+      cursor-pointer text-white"
+        contenteditable="true">
+        <h1 class="topHeading" contenteditable="true" draggable="true">
+          <span><i class="fa-solid fa-user-graduate"></i></span>
           EdUCATION
         </h1>
       </div>
-    </div>
+   
 
-    <div class="px-3 pt-2 mt-2 selectedParentContainer draggableEle">
-      <h1
-        class="text-xl font-bold capitalize draggableEle"
-        contenteditable="true"
-        draggable="true"
-      >
-        Master of Science in Mechanical Engineering
-        <span
-          class="text-[17px] float-right text-gray-500"
-          contenteditable="true"
-          >(Aug 2020-Aug 2024)</span
-        >
-      </h1>
-      <p
-        class="text-[19px] font-semibold text-blue-400"
-        contenteditable="true"
-        draggable="true"
-      >
-        University of Engineering and Technology
-      </p>
+    <div class=" pt-2 mt-2 selectedParentContainer ">
+      
+       
+    
       <ul
-        class="draggableEle text-gray-700 list-disc text-[18px] font-semibold text-justify leading-tight selectedParentContainer"
-      >
-        <li contenteditable="true" draggable="true">
-          Specialization in Advanced Manufacturing.
-        </li>
-        <li contenteditable="true" draggable="true">
-          Thesis on "Innovations in Sustainable Engineering Practices".
-        </li>
-      </ul>
-      <h1
-        class="text-xl font-bold capitalize draggableEle"
-        contenteditable="true"
-        draggable="true"
-      >
-        Bachelor of Science in Civil Engineering
-        <span
-          class="text-[17px] float-right font-bold text-gray-500"
-          contenteditable="true"
-          >(Aug 2020-Aug 2024)</span
-        >
-      </h1>
-      <p
-        class="text-[19px] font-semibold text-blue-400"
-        contenteditable="true"
-        draggable="true"
-      >
-        City College of Engineering
+        class="list-disc text-[10px] 500:text-[14px] sm:text-[16px] md:text-[18px] 
+        leading-snug  px-3 pb-3 font-semibold text-gray-700">
+
+        <div class=" flex justify-start 500:justify-between items-start 500:items-center flex-col 500:flex-row">
+          <h1 class="allHeadings boldList" contenteditable="true">
+            Lorem ipsum dolor sit amet.
+    
+          </h1>
+          <span class="text-[8px] 500:text-[12px]  sm:text-[15px] md:text-[17px]  500:float-right text-gray-400 font-bold" contenteditable="true">&nbsp;(Aug 2020-Aug 2024)</span>
+          </div>
+      <p class="allHeadings text-[12px] 500:text-[15px] sm:text-[17px] md:text-[19px] font-semibold text-blue-400  leading-tight" contenteditable="true" draggable="true">
+        Lorem ipsum dolor sit amet.
       </p>
-      <ul
-        class="draggableEle text-gray-700 list-disc text-[18px] font-semibold text-justify leading-tight selectedParentContainer"
-      >
-        <li contenteditable="true" draggable="true">
-          Relevant coursework in Structural Design and Project Management..
+        <li contenteditable="true" >
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam modi error, quo eveniet aperiam neque.
         </li>
+        <li contenteditable="true" >
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam modi error, quo eveniet aperiam neque.
+        </li>
+        
       </ul>
     </div>
   </div>

@@ -1,3 +1,21 @@
+
 .hidden-border{
     border: none !important;
+   margin: 10px;
+   break-inside:avoid;
 }
+.showBorder{
+    background-color: rgb(233, 148, 148);
+}
+.selected{
+    background-color: rgb(183, 183, 233);
+}
+
+.active{
+    font-weight: bold;
+}
+.nonActive{
+    font-weight: 600;
+}
+
+

@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.circleLink{
+    @apply text-[8px] 500:text-[13px] sm:text-[16px] md:text-[18px] bg-zinc-700 text-white rounded-[50%]
+  w-[15px] h-[15px] 500:w-[20px] 500:h-[20px] sm:w-[30px] sm:h-[30px] md:w-[35px] 
+  md:h-[35px] text-center pt-[1px] sm:py-1
+}
+
+.rightLinkHead{
+    @apply font-semibold text-[8px] 500:text-[14px] sm:text-[15px] md:text-[17px] text-blue-400
+}
+.rightLinkChild{
+    @apply text-[8px] 500:text-[13px] sm:text-[16px] md:text-[18px] text-black
+}
+
+ .topHeading{
+    @apply font-bold text-[12px] 500:text-[15px] sm:text-[22px] md:text-2xl uppercase cursor-pointer
+} 
+
+.boldList{
+    @apply text-[12px] 500:text-[15px] sm:text-[18px] md:text-[20px] capitalize font-bold text-black
+}
